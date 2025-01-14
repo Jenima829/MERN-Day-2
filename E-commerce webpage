@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSD-Day2</title>
+    <style>
+    body{
+    margin: 0px;
+    }
+   .container{
+   width: 350px;
+   border: 4px black solid; 
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: all ease 0.3s;
+}
+.container:hover{
+    background-color:  rgb(165, 42, 87);
+    transform: scale(1.1);
+}
+img{
+    width: 250px;
+    border: 4px black solid; 
+    border-radius: 30px;
+}
+img:hover{
+    border: 4px white solid; 
+    border-radius: 30px;
+}
+.container .image2{
+    width: 280px;
+}
+.container .image3{
+    width: 230px;
+}
+.container .image4{
+    width: 250px;
+    height: 340px;
+}
+
+header{
+    background-color: rgb(165, 42, 87);
+}
+header h1{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+}
+footer{
+    background-color: rgb(165, 42, 87);
+}
+footer h1{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    color: black;
+}
+td{
+    padding-left: 15px;
+}
+</style>
+</head>
+<body>
+   <header>
+    <h1>Namma Website</h1>
+   </header>
+   <br><br><br><br><br>
+   <table>
+     <tr>
+    <td>
+        <div class="container">
+            <h2>Hoodie</h2>
+            <img src="hoodie.jpg" >
+            <h2>Price : $25</h2>
+        </div>
+    </td>
+    <td>
+        <div class="container">
+            <h2>Shoe</h2>
+            <img class="image2" src="shoe.webp" >
+            <h2>Price : $35</h2>
+        </div>
+    </td>
+    <td>
+        <div class="container">
+            <h2>Anarkali</h2>
+            <img class="image3" src="anarkali.jpg" >
+            <h2>Price : $85</h2>
+        </div>
+    </td>
+    <td>
+        <div class="container">
+            <h2>Heels</h2>
+            <img src="wtach.avif" >
+            <h2>Price : $45</h2>
+        </div>
+    </td>
+    <td>
+        <div class="container">
+            <h2>T-Shirts</h2>
+            <img class="image4" src="tshir.webp" >
+            <h2>Price : $23</h2>
+        </div>
+    </td>
+     </tr>
+   </table>
+   <br><br><br><br><br><br><br><br><br><br>
+   <footer>
+    <h1>Developed by us</h1>
+   </footer>
+</body>
+</html>
