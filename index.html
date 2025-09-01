@@ -5,115 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FSD-Day2</title>
     <style>
-    body{
-    margin: 0px;
-    }
-   .container{
-   width: 350px;
-   border: 4px black solid; 
-   border-radius: 30px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   transition: all ease 0.3s;
-}
-.container:hover{
-    background-color:  rgb(165, 42, 87);
-    transform: scale(1.1);
-}
-img{
-    width: 250px;
-    border: 4px black solid; 
-    border-radius: 30px;
-}
-img:hover{
-    border: 4px white solid; 
-    border-radius: 30px;
-}
-.container .image2{
-    width: 280px;
-}
-.container .image3{
-    width: 230px;
-}
-.container .image4{
-    width: 250px;
-    height: 340px;
-}
+        body {
+            margin: 0px;
+        }
 
-header{
-    background-color: rgb(165, 42, 87);
-}
-header h1{
-    font-size: 60px;
-    color: aliceblue;
-    text-align: center;
-    margin: 0px;
-}
-footer{
-    background-color: rgb(165, 42, 87);
-}
-footer h1{
-    font-size: 60px;
-    color: aliceblue;
-    text-align: center;
-    margin: 0px;
-}
-h2{
-    color: black;
-}
-td{
-    padding-left: 15px;
-}
-</style>
+        .container {
+            width: 350px;
+            border: 4px black solid; 
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all ease 0.3s;
+        }
+
+        .container:hover {
+            background-color: rgb(165, 42, 87);
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 250px;
+            border: 4px black solid; 
+            border-radius: 30px;
+        }
+
+        img:hover {
+            border: 4px white solid; 
+            border-radius: 30px;
+        }
+
+        .container .image2 {
+            width: 280px;
+        }
+
+        .container .image3 {
+            width: 230px;
+        }
+
+        .container .image4 {
+            width: 250px;
+            height: 340px;
+        }
+
+        header, footer {
+            background-color: rgb(165, 42, 87);
+            padding: 20px;  /* same height effect */
+        }
+
+        header h1 {
+            font-size: 20px;
+            color: aliceblue;
+            text-align: center;
+            margin: 0px;
+        }
+
+        footer h1 {
+            font-size: 10px;  /* small text */
+            color: aliceblue;
+            text-align: center;
+            margin: 0px;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        td {
+            padding-left: 15px;
+        }
+    </style>
 </head>
 <body>
    <header>
-    <h1>Namma Website</h1>
+        <h1>E-Commerce Website</h1>
    </header>
+
    <br><br><br><br><br>
+
    <table>
      <tr>
-    <td>
-        <div class="container">
-            <h2>Hoodie</h2>
-            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/JULY/16/P6hDiKd7_dc393c5be4d944d0bfd497e71f6681e2.jpg" >
-            <h2>Price : $25</h2>
-        </div>
-    </td>
-    <td>
-        <div class="container">
-            <h2>Shoe</h2>
-            <img class="image2" src="https://calcetto.in/cdn/shop/files/PIX_2222.jpg?v=1744200026" >
-            <h2>Price : $35</h2>
-        </div>
-    </td>
-    <td>
-        <div class="container">
-            <h2>Anarkali</h2>
-            <img class="image3" src="https://shoplabelaishwaryrika.com/cdn/shop/files/FB6F85F2-C20B-42C2-B5E2-2F56000C3E39.jpg?v=1743806695" >
-            <h2>Price : $85</h2>
-        </div>
-    </td>
-    <td>
-        <div class="container">
-            <h2>Heels</h2>
-            <img src="https://www.carlington.in/cdn/shop/files/Carliongton_premium_black_analog_mens_s_watch_6020.jpg?v=1712818158&width=2048" >
-            <h2>Price : $45</h2>
-        </div>
-    </td>
-    <td>
-        <div class="container">
-            <h2>T-Shirts</h2>
-            <img class="image4" src="https://septemberish.com/wp-content/uploads/2023/04/female-model-2-karma-is-my-boyfriend-oversized-tshirt.jpg" >
-            <h2>Price : $23</h2>
-        </div>
-    </td>
+        <td>
+            <div class="container">
+                <h2>Hoodie</h2>
+                <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/JULY/16/P6hDiKd7_dc393c5be4d944d0bfd497e71f6681e2.jpg">
+                <h2>Price : $25</h2>
+            </div>
+        </td>
+        <td>
+            <div class="container">
+                <h2>Shoe</h2>
+                <img class="image2" src="https://calcetto.in/cdn/shop/files/PIX_2222.jpg?v=1744200026">
+                <h2>Price : $35</h2>
+            </div>
+        </td>
+        <td>
+            <div class="container">
+                <h2>Anarkali</h2>
+                <img class="image3" src="https://shoplabelaishwaryrika.com/cdn/shop/files/FB6F85F2-C20B-42C2-B5E2-2F56000C3E39.jpg?v=1743806695">
+                <h2>Price : $85</h2>
+            </div>
+        </td>
+        <td>
+            <div class="container">
+                <h2>Heels</h2>
+                <img src="https://www.carlington.in/cdn/shop/files/Carliongton_premium_black_analog_mens_s_watch_6020.jpg?v=1712818158&width=2048">
+                <h2>Price : $45</h2>
+            </div>
+        </td>
+        <td>
+            <div class="container">
+                <h2>T-Shirts</h2>
+                <img class="image4" src="https://septemberish.com/wp-content/uploads/2023/04/female-model-2-karma-is-my-boyfriend-oversized-tshirt.jpg">
+                <h2>Price : $23</h2>
+            </div>
+        </td>
      </tr>
    </table>
+
    <br><br><br><br><br><br><br><br><br><br>
+
    <footer>
-    <h1>Developed by us</h1>
+        <h1>@2025 All rights reserved</h1>
    </footer>
 </body>
 </html>
